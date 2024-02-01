@@ -1,3 +1,5 @@
+# Makefile for program which tests if an argument == 3
+
 PROG = eq3
 OBJS = eq3.o eq3_c.o eq3_s.o
 
