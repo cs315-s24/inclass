@@ -1,5 +1,5 @@
 PROG = countc
-OBJS = countc.o countc_c.o countc_s.o
+OBJS = countc.o countc_s.o countc_c.o 
 
 %.o: %.c
 	gcc -c -g -o $@ $<
