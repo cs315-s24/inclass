@@ -8,6 +8,8 @@ int add2_s(int, int);
 void look_at_code(uint32_t *code) {
     uint32_t add_instr = *code;
     printf("add_instr: 0x%x\n", add_instr);
+    uint32_t ret_instr = *(code + 1);
+    printf("ret_instr: 0x%x\n", ret_instr);
 }
 
 int main(int argc, char **argv) {
